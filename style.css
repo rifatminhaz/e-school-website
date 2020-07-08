@@ -7,7 +7,7 @@ body{
 }
 
 .wrapper{
-    margin-top: 60px;
+    margin-top: 50px;
 }
 .navbar{
     top: 20px;
@@ -43,6 +43,8 @@ body{
     width: 560px;
 
 } */
+
+
 .green-bg{
     background-color:#F0FFF0;;
 }
@@ -84,10 +86,11 @@ body{
 
 
 .middle-row img{
-    margin: 0 auto;
-    width: 80px;
+    margin: 25px 79px;
+    width: 60px;
     max-width: 100%;
     display: block;
+    border-radius: 5px;
 
 } 
 
