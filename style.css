@@ -152,7 +152,7 @@ body{
 .contact-form{
     background: #fff;
     width: 70%;
-
+    margin: 0 auto;
 }
 .contact-form .form-control{
     border-radius:1rem;
