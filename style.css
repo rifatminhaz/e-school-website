@@ -5,8 +5,9 @@ body{
 
     
 }
-.container{
-    margin-bottom: 60px;
+
+.wrapper{
+    margin-top: 60px;
 }
 .navbar{
     top: 20px;
@@ -25,11 +26,14 @@ body{
     color: white !important;
     text-decoration: none;
     background: #21B573;
-    border-radius: 20px;     
-    padding:0px 15px;
+    border-radius: 33px;     
+    padding:5px 20px !important;
     font-weight: 700;
 
     
+}
+.signin-button:hover{
+    text-decoration: none;
 }
 /* .row{
     margin: 0px 10px;
@@ -59,28 +63,108 @@ body{
 }
 .link-button{
     color: white;
-    text-decoration: none;
     background: #21B573;
     padding: 10px 20px;
     border-radius: 20px;    
     text-align: center;
-    font-weight: 700;
+    
 }
+.link-button:hover{
+    text-decoration: none;
+    color: white;
+}
+
 .middle-row{
-    border: 2px solid gray;
-    border-radius: 10px;
     width: 220px;
+    background-color:#F8FFFB ;
     
     
-    padding: 0 15px;
+
 }
 
 
 .middle-row img{
     margin: 0 auto;
-    width: 100%;
+    width: 80px;
     max-width: 100%;
+    display: block;
+
 } 
-.card-body{
+
+.text-align{
     text-align: center;
+}
+.middle-row:hover{
+    background-color: white;
+}
+
+#courses h2{
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+#courses .card-img-top {
+    padding: 20px;
+}
+#courses p{
+    color: #585859;;
+}
+#courses .buynow-button{
+    margin: 15px 0px;
+    text-decoration: none;
+    background-color: #21B573;
+    color: #ffffff;
+    border: none;
+    border-radius: 33px;
+    padding: 9px 25px;
+    
+}
+#courses .icon-courses{
+    width: 15px;
+}
+#courses .start-courses{
+    margin: 15px 5px;
+    font-size: 14px;
+}
+#courses .course{
+    margin-left: 75px;
+}
+#testimonial h2{
+    text-align: center;
+    margin-bottom: 80px;
+    font-weight: 700;
+}
+#testimonial img{
+    width: 120px;
+}
+#testimonial .wrap{
+    width: 580px;
+    margin-left: 50px;
+}
+
+.footer-bg{
+    background-color: #282531;
+    color: white;
+   
+}
+#userful-links .row{
+    margin-top: 50px;
+}
+#useful-links .footer-section{
+    width: 200px;
+}
+
+.footer-section ul li{
+    list-style: none;
+    color: white;
+    margin: 0 auto;
+}
+.courses-li{
+    font-size: 22px;
+    font-weight: 700;
+}
+footer{
+    text-align: center;
+    padding: 40px 0px;
+    color: white;
 }
